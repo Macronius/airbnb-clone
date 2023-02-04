@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 // const Home: NextPage = ({ exploreData, cardsData }) => {
 const Home = ({ exploreData, cardsData }) => {
   // console.log(exploreData);
-  console.log(cardsData);
+  // console.log(cardsData);
   return (
     <div>
       <Head>

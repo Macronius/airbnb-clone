@@ -35,6 +35,12 @@ module.exports = {
         port: '',
         pathname: '/b/VHHT/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'jsonkeeper.com',
+        port: '',
+        pathname: '/b/5NPS**',
+      },
     ],
     domains: ['links.papareact.com', 'jsonkeeper.com', 'a0.muscache.com'],
     loader: 'default',
@@ -46,5 +52,17 @@ module.exports = {
     disableStaticImages: false,
     dangerouslyAllowSVG: false,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+  },
+  env: {
+    mapbox_key:
+      'pk.eyJ1IjoibTRjcnVzIiwiYSI6ImNsZGx1OW0xYjAzMnQzd253bjh2M3Yxd3UifQ.nfE4wjBTIYRz0VKDK8c7xg',
+    mapbox_style_key: 'mapbox://styles/m4crus/cldlwk5r5000401t1pehxmq5m',
+    ACCESS_TOKEN:
+      'pk.eyJ1IjoibTRjcnVzIiwiYSI6ImNsZGx1OW0xYjAzMnQzd253bjh2M3Yxd3UifQ.nfE4wjBTIYRz0VKDK8c7xg',
+    STYLE_URL: 'mapbox://styles/m4crus/cldlwk5r5000401t1pehxmq5m',
+    STYLE_NAVIGATION_DARK_URL:
+      'mapbox://styles/m4crus/cldnae29a004v01q9crc3fqk8',
+    STYLE_NAVIGATION_DARK_CUSTOM_URL:
+      'mapbox://styles/m4crus/cldnae29a004v01q9crc3fqk8',
   },
 };
